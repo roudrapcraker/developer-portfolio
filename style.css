@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50 px;
+}
+
+.lol {
+    color: brown;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    font-weight: 700;
+
+    padding: 10px 30px;
+    border: 5px;
+    border-radius: 3px;
+
+}
+
+section {
+    display: flex;
+}
+
+.beibo {
+    width: 50%;
+    padding: 5%;
+}
+
+.beibo img {
+    width: 50%;
+}
+
+.lala {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
