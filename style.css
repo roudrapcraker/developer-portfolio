@@ -2,6 +2,7 @@ body {
     margin: 0;
 
     font-family: 'Poppins', sans-serif;
+    <
 }
 
 h1 {
@@ -24,21 +25,59 @@ h1 {
 
 }
 
-section {
+.flexible {
     display: flex;
 }
 
 .beibo {
     width: 50%;
-    padding: 5%;
+    padding: 2%;
 }
 
 .beibo img {
-    width: 50%;
+    width: 90%;
 }
 
 .lala {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+footer {
+    text-align: center;
+}
+
+.saka {
+    text-align: center;
+
+
+}
+
+.pop {
+    color: orange;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.teilo {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    box-shadow: 10px 10px 40px grey;
+
+}
+
+#baby {
+    border-left: 5px solid blue;
+}
+
+#full-steck {
+    border-left: 5px solid red;
 }
